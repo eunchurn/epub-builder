@@ -15,6 +15,7 @@ The book configuration is defined in a YAML file `epub.yaml`. Here's an explanat
 | fonts       | string[] | No       | An array of font file paths                           |
 | cover       | string   | No       | The path to the cover image file                      |
 | output      | string   | Yes      | The output path for the generated ebook file          |
+| hideToC     | boolean  | No       | Hide the table of contents                            |
 
 ### Example Configuration
 
@@ -33,6 +34,7 @@ fonts:
   - resources/fonts/NanumMyeongjo.ttf
 cover: resources/images/cover.jpg
 output: public/book.epub
+hideToC: false
 ```
 
-Make sure to include all required fields (title, author, books, output) in your configuration. The `books` array must contain at least one file path. Other fields are optional but can be used to customize your ebook's appearance and content.
+Make sure to include all required fields (title, author, books, output) in your configuration. The `books` array must contain at least one file path. Other fields are optional but can be used to customize your ebook's appearance and content. The `hideToC` option allows you to hide the table of contents if set to `true`.

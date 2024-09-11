@@ -29,6 +29,7 @@ interface ConfigsType {
   fonts?: string[];
   cover?: string;
   output?: string;
+  hideToC?: boolean;
 }
 
 interface FrontMatter {
@@ -42,8 +43,17 @@ const getData = async () => {
     readFileSync(path.resolve(process.cwd(), "epub.yaml"), "utf-8")
   ) as ConfigsType;
 
-  const { title, description, author, cover, fonts, cssFile, books, output } =
-    configs;
+  const {
+    title,
+    description,
+    author,
+    cover,
+    fonts,
+    cssFile,
+    books,
+    output,
+    hideToC,
+  } = configs;
   const content: EpubContentOptions[] = books
     ? await Promise.all(
         books.map(async (book) => {
@@ -72,6 +82,7 @@ const getData = async () => {
       ? fonts.map((font) => path.resolve(process.cwd(), font))
       : undefined,
     cover,
+    hideToC: hideToC || false,
     content,
   };
   const out = path.resolve(process.cwd(), output || "public/book.epub");

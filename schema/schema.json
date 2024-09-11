@@ -41,6 +41,10 @@
     "output": {
       "type": "string",
       "description": "The output path for the generated ebook file"
+    },
+    "hideToC": {
+      "type": "boolean",
+      "description": "Hide the table of contents"
     }
   }
 }
