@@ -1,22 +1,22 @@
 @font-face {
   font-family: "KOPUSGoL";
-  src: url('../Fonts/KOPUSGoL.ttf');
+  src: url('./fonts/KOPUSGoL.ttf');
 }
 @font-face {
   font-family: "KOPUSMjL";
-  src: url('../Fonts/KOPUSMjL.ttf');
+  src: url('./fonts/KOPUSMjL.ttf');
 }
 @font-face {
   font-family: "KOPUSGoB";
-  src: url('../Fonts/KOPUSGoB.ttf');
+  src: url('./fonts/KOPUSGoB.ttf');
 }
 @font-face {
   font-family: "KOPUSMjB";
-  src: url('../Fonts/KOPUSMjB.ttf');
+  src: url('./fonts/KOPUSMjB.ttf');
 }
 @font-face {
   font-family: "nanum";
-  src: url('../Fonts/NanumMyeongjo.ttf');
+  src: url('./fonts/NanumMyeongjo.ttf');
 }
 body {
   font-family: "KOPUSMjL" , "KOPUSGoL";
