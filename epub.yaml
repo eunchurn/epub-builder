@@ -1,0 +1,14 @@
+title: 소나기
+author: 황순원
+description: 1952년 《신문학》지에 처음 발표되어 현재까지 사랑받고 있는 황순원 집필의 단편소설. 사춘기 소년과 소녀의 첫사랑을 서정적으로 그린 작품이다. 우리나라에서는 순수한 사랑 그 자체로 대중들의 머리 속에 각인되어 있으며, 수많은 사람들과 매체에 큰 영향을 미치고 있다.
+books:
+- resources/body/example/01.md
+cssFile: resources/css/styles.css
+fonts:
+- resources/fonts/KOPUSGoB.ttf
+- resources/fonts/KOPUSGoL.ttf
+- resources/fonts/KOPUSMjB.ttf
+- resources/fonts/KOPUSMjL.ttf
+- resources/fonts/NanumMyeongjo.ttf
+cover: resources/images/cover.jpg
+output: public/book.epub

@@ -1,0 +1,48 @@
+{
+  "name": "epub-builder",
+  "version": "1.0.0",
+  "description": "Markdown file to epub converter with styles and fonts",
+  "main": "epub.js",
+  "scripts": {
+    "dev": "pnpm build && pnpm dev:web",
+    "build": "tsx src/epub.ts",
+    "dev:web": "vite"
+  },
+  "keywords": [
+    "markdown",
+    "epub",
+    "epubjs",
+    "epub-builder",
+    "epub-generator"
+  ],
+  "author": {
+    "name": "Eunchurn Park",
+    "email": "eunchurn.park@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@lesjoursfr/html-to-epub": "4.4.0",
+    "epubjs": "^0.3.93",
+    "hast-util-from-string": "^3.0.0",
+    "hast-util-select": "^6.0.2",
+    "hast-util-to-string": "^3.0.0",
+    "rehype-document": "^7.0.3",
+    "rehype-format": "^5.0.0",
+    "rehype-stringify": "^10.0.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5",
+    "vfile-matter": "^5.0.0",
+    "vfile-reporter": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.3",
+    "yaml": "^2.5.1"
+  }
+}
