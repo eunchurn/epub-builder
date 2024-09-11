@@ -11,4 +11,4 @@ fonts:
 - resources/fonts/KOPUSMjL.ttf
 - resources/fonts/NanumMyeongjo.ttf
 cover: resources/images/cover.jpg
-output: public/book.epub
+output: public/소나기.epub

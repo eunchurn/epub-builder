@@ -2,7 +2,7 @@
 
 ## Configuration
 
-The book configuration is defined in a YAML file. Here's an explanation of the available options:
+The book configuration is defined in a YAML file `epub.yaml`. Here's an explanation of the available options:
 
 | Field       | Type     | Required | Description                                           |
 |-------------|----------|----------|-------------------------------------------------------|
