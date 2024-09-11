@@ -1,0 +1,208 @@
+@font-face {
+  font-family: "KOPUSGoL";
+  src: url('../Fonts/KOPUSGoL.ttf');
+}
+@font-face {
+  font-family: "KOPUSMjL";
+  src: url('../Fonts/KOPUSMjL.ttf');
+}
+@font-face {
+  font-family: "KOPUSGoB";
+  src: url('../Fonts/KOPUSGoB.ttf');
+}
+@font-face {
+  font-family: "KOPUSMjB";
+  src: url('../Fonts/KOPUSMjB.ttf');
+}
+@font-face {
+  font-family: "nanum";
+  src: url('../Fonts/NanumMyeongjo.ttf');
+}
+body {
+  font-family: "KOPUSMjL" , "KOPUSGoL";
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.w100 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+p {
+  text-indent: 1em;
+  display: block;
+  font-size: 1em;
+  text-align: justify;
+  line-height: 1.8em;
+  margin: 0em;
+}
+img {
+  vertical-align: middle;
+}
+.center {
+  display: block;
+  text-align: center;
+  text-indent: 0em;
+}
+.right {
+  display: block;
+  text-align: right;
+  text-indent: 0em;
+}
+.left {
+  display: block;
+  text-align: left;
+  text-indent: 0em;
+}
+.t1 {
+  text-indent: 0em;
+  text-align: center;
+  font-family: "KOPUSMjB";
+  font-size: 1.1em;
+}
+.italic {
+  font-family: "KOPUSGoL";
+  font-style: italic;
+}
+.sansB {
+  font-family: "KOPUSGoB";
+}
+.serifB {
+  font-family: "KOPUSMjB";
+}
+.serifL {
+  font-family: "KOPUSMjL";
+}
+.sansL {
+  font-family: "KOPUSGoL";
+}
+.in0 {
+  text-indent: 0em;
+}
+.f12 {
+  font-size: 1.2em;
+}
+.f11 {
+  font-size: 1.1em;
+}
+.f10 {
+  font-size: 1.0em;
+}
+.f09 {
+  font-size: 0.9em;
+}
+.f08 {
+  font-size: 0.8em;
+}
+.f07 {
+  font-size: 0.7em;
+}
+.copy1 {
+  font-size: 1.5em;
+  text-indent: 0em;
+}
+.copy p {
+  font-size: 0.9em;
+  text-indent: 0em;
+}
+.text_en {
+  font-size: 0.75em;
+  line-height: 1.4em;
+}
+.brk {
+  font-size: 0.8em;
+}
+.none {
+  display: none;
+}
+.mt05 {
+  margin-top: 0.5em;
+}
+.in12 {
+  text-indent: -1.2em;
+}
+.ml12 {
+  margin-left: 1.2em;
+}
+.q1 {
+  margin-left: 3.2em;
+  text-indent: -1.5em;
+  font-family: "nanum";
+}
+sup {
+  line-height: 1.4em;
+}
+.ml32 {
+  margin-left: 3.2em;
+}
+.in0 p {
+  text-indent: 0em;
+}
+.w20 {
+  width: 20%;
+}
+.w30 {
+  width: 30%;
+}
+.w40 {
+  width: 40%;
+}
+.w50 {
+  width: 50%;
+}
+.w60 {
+  width: 60%;
+}
+.w70 {
+  width: 70%;
+}
+.w80 {
+  width: 80%;
+}
+.w90 {
+  width: 90%;
+}
+.q {
+  line-height: 2em;
+  margin-left: 1em;
+  font-family: "nanum";
+}
+h1 {
+  text-indent: 0em;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  font-family: "KOPUSMjB";
+}
+.bar {
+  width: 6em;
+}
+.mark {
+  vertical-align: top;
+  line-height: 1.6em;
+}
+.footnote {
+  font-size: 0.85em;
+  line-height: 1.6em;
+  text-indent: 0em;
+  color: #808080;
+}
+.footnote1 {
+  font-size: 0.85em;
+  line-height: 1.6em;
+  text-indent: 0em;
+  color: #808080;
+  margin-left: 1em;
+}
+.author1 p {
+  font-size: 0.85em;
+  text-indent: 0em;
+  line-height: 1.6em;
+}
