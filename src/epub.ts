@@ -81,7 +81,7 @@ const getData = async () => {
     fonts: fonts
       ? fonts.map((font) => path.resolve(process.cwd(), font))
       : undefined,
-    cover,
+    cover: cover ? path.resolve(process.cwd(), cover) : undefined,
     hideToC: hideToC || false,
     content,
   };

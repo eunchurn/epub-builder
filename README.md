@@ -38,3 +38,10 @@ hideToC: false
 ```
 
 Make sure to include all required fields (title, author, books, output) in your configuration. The `books` array must contain at least one file path. Other fields are optional but can be used to customize your ebook's appearance and content. The `hideToC` option allows you to hide the table of contents if set to `true`.
+
+
+### 문장기호
+
+- ···
+- ―
+- 《》

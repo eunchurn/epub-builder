@@ -175,11 +175,14 @@ sup {
   font-family: "nanum";
 }
 h1 {
-  text-indent: 0em;
-  text-align: center;
-  font-size: 1.1em;
-  line-height: 1.6em;
-  font-family: "KOPUSMjB";
+  font-size: 1.4em;
+  font-family: "KOPUSMjL";
+  color: #A3DEC5;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: 8em;
+  margin-bottom: 10em;
+  text-align: right;
 }
 .bar {
   width: 6em;
