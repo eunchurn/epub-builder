@@ -1,34 +1,8 @@
-title: 굿나잇책방
-author: 임은섭
-description: 1952년 《신문학》지에 처음 발표되어 현재까지 사랑받고 있는 황순원 집필의 단편소설. 사춘기 소년과 소녀의 첫사랑을 서정적으로 그린 작품이다. 우리나라에서는 순수한 사랑 그 자체로 대중들의 머리 속에 각인되어 있으며, 수많은 사람들과 매체에 큰 영향을 미치고 있다.
+title: 운수 좋은 날
+author: 현진건
+description: 〈운수 좋은 날〉은 현진건이 1924년 6월 《개벽》에 발표한 사실주의 단편 소설이다. 조선 민중들의 비참한 삶을 있는 그대로 묘사했다. 대한민국의 중학교 2학년 교과서 4에 수록되어 있으며, 뮤지컬로 만들어지기도 했다. 일본의 민족학교 수업에서도 이 소설을 가르친다
 books:
-- resources/body/example/prescript.md
-- resources/body/example/01.md
-- resources/body/example/02.md
-- resources/body/example/03.md
-- resources/body/example/04.md
-- resources/body/example/05.md
-- resources/body/example/06.md
-- resources/body/example/07.md
-- resources/body/example/08.md
-- resources/body/example/09.md
-- resources/body/example/10.md
-- resources/body/example/11.md
-- resources/body/example/12.md
-- resources/body/example/13.md
-- resources/body/example/14.md
-- resources/body/example/15.md
-- resources/body/example/16.md
-- resources/body/example/17.md
-- resources/body/example/18.md
-- resources/body/example/19.md
-- resources/body/example/20.md
-- resources/body/example/21.md
-- resources/body/example/22.md
-- resources/body/example/23.md
-- resources/body/example/24.md
-- resources/body/example/25.md
-- resources/body/example/postscript.md
+- resources/body/example/main.md
 
 cssFile: resources/css/styles.css
 fonts:
@@ -37,7 +11,7 @@ fonts:
 - resources/fonts/KOPUSMjB.ttf
 - resources/fonts/KOPUSMjL.ttf
 - resources/fonts/NanumMyeongjo.ttf
-cover: resources/images/goodnight_cropped.jpg
-output: public/굿나잇책방.epub
+cover: resources/images/개벽창간호.jpg
+output: public/운수좋은날.epub
 
-# hideToC: true
+hideToC: true
