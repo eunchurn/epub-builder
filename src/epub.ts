@@ -111,6 +111,15 @@ const getHtml = async (bodyPath: string) => {
 
 const main = async () => {
   const { data, out } = await getData();
+    // Ensure all title/description/author fields are strings
+  if (data.content) {
+    data.content = data.content.map(item => ({
+      ...item,
+      title: String(item.title || ""),
+      author: String(item.author || ""),
+      data: String(item.data || "")
+    }));
+  }
   const epub = new EPub(data, out);
   const result = await epub.render();
   console.log(result);
