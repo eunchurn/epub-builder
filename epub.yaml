@@ -1,11 +1,8 @@
-title: 빈처
+title: B사감과 러브레터
 author: 현진건
-description: 1921년 1월 『개벽(開闢)』 7호에 발표
+description: 대한제국과 일제강점기 조선의 작가, 소설가 겸 언론인, 독립운동가 현진건의 작품 (B사감과 러브레터)
 books:
-- resources/body/example/1.md
-- resources/body/example/2.md
-- resources/body/example/3.md
-- resources/body/example/4.md
+- resources/body/example/main.md
 
 cssFile: resources/css/styles.css
 fonts:
@@ -14,7 +11,7 @@ fonts:
 - resources/fonts/KOPUSMjB.ttf
 - resources/fonts/KOPUSMjL.ttf
 - resources/fonts/NanumMyeongjo.ttf
-cover: resources/images/개벽창간호.jpg
-output: public/빈처.epub
+cover: resources/images/chosun-mundan-1925-02.jpg
+output: public/B사감과-러브레터.epub
 
 hideToC: true
